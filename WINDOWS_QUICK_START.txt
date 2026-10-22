@@ -1,0 +1,13 @@
+SKILLPILOT TASKS — QUICK START (WINDOWS)
+
+1. Extract the ZIP to a folder.
+2. Open the extracted SkillPilot_Todo folder. You should see package.json here.
+3. Click the File Explorer address bar, type powershell, and press Enter.
+4. Run:
+
+   npm install
+   npm run dev
+
+5. Open the local URL printed by Vite (usually http://localhost:5173/).
+
+If npm reports ENOENT for package.json, you are in the wrong folder. Run `dir` and move into the folder that contains package.json before running npm commands.
